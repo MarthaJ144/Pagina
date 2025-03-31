@@ -1,0 +1,106 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog sobre desarrollo Web</title>
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+
+</head> 
+<body>
+
+
+<header>
+<!--Dentro de header tengo mi clase de menu-->
+<!--Tambien en imagenes tengo el logo que saldra en mi pagina -->
+
+<div class="menu">
+
+<img src="Imagenes/Bloc desarrollo.jpg" alt="Imagen Izquierda" class="img1">
+    
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="inicio">Inicio</a></li>
+            <li><a href="formulario.html" class="formulario">Formulario de contacto</a></li>
+            <li><a href="galeria.html" class="galeria">Galería de videos</a></li>
+            
+        </ul>
+    </nav>
+</div>
+
+    </header>
+<br>
+    <h1>Creación de formularios de contacto</h1>
+    <br>
+    <img src="Imagenes/Formuariosinicio.gif" alt="Froned" class="img5">
+    <br>
+<h2>Formulario de contacto</h2>
+<br>
+<h3>Por favor diligencia los datos del formularios para que un asesor se contacte y pueda indicarnos como desea
+    crear la pagina web.
+
+</h3>
+<br>
+<form action="/enviar" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="text" id="fecha" name="fecha" required><br><br>
+<!--El tipo radio significa que es redondo el boton -->
+
+    <label>Sexo:</label>
+    <input type="radio" id="masculino" name="sexo" value="Masculino" required>
+    <label for="masculino">Masculino</label>
+
+    <input type="radio" id="femenino" name="sexo" value="Femenino" required>
+    <label for="femenino">Femenino</label>
+
+    <input type="radio" id="otro" name="sexo" value="Otro" required>
+    <label for="otro">Otro</label>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="ocupacion">ocupacion:</label>
+    <input type="text" id="ocupacion" name="ocupacion" required><br><br>
+
+    <label for="direccion">Direccion:</label>
+    <input type="text" id="direccion" name="direccion" required><br><br>
+
+    
+    
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" cols="20" required></textarea>
+<br><br>
+    <label for="Comentarios">Comentraio sobre el bloc:</label>
+    <textarea id="comentario" name="comentario" rows="5" cols="20" required></textarea>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+<br>
+<br>
+<img src="Imagenes/Formularios.gif" alt="Froned" class="img5">
+</form>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <!--Se crea el pie de pagina-->
+    <footer class="footer">
+        <p>Creado por: <strong>Martha Gil</strong></p>
+        <p>Teléfono: 3045243443</p>
+        <p>Correo: <a href="mailto:marthaji.gilvillalba@ecci.edu.co">marthaji.gilvillalba@ecci.edu.co</a></p>
+        <a href="https://www.ecci.edu.co/bogota/" target="_blank" class="boton">Visitar Universidad</a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+*{
+    /*Bordes de mi pie de pagina*/
+padding:0;/*relleno*/
+margin:0;/*Margen*/
+box-sizing: border-box;/*tamaño del borde de mi caja */
+
+}
+
+/*contiene el contenido principal de una página web, como el texto, el logotipo, los menús de navegación, entre otros*/
+body {
+    background: rgb(91, 219, 209); /* Color interior */
+    font-family: 'calibri';
+    display: flex;
+    flex-direction: column;/*Para que no se corra la columna*/
+    width: 1500px;/*Tamaño de mi margen*/
+    margin: 50px auto; /* Agrega un pequeño margen para que el shadow se vea */
+    padding: 0 10px 10px 10px;
+    border: 2px solid black; /* Borde */
+    box-shadow: 0 0 0 5px #658f8f; /* Color exterior */
+}
+
+
+ /*Titulo de mi pagina web, numero 1, que es el mas grande*/
+h1{
+    font-size: 30px; /* Ajusta el tamaño del texto */
+    color: black; /* Cambia el color del texto */
+    text-align: center; /* Centra el texto */
+    font-weight: bold; /* Hace el texto más grueso */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+}
+/*Subtitulos de mi pagina Web*/
+
+h2{
+    font-size: 20px; /* Ajusta el tamaño del texto */
+    color: rgb(51, 86, 224); /* Cambia el color del texto */
+    text-align: left; /* Centra el texto */
+    font-weight: bold; /* Hace el texto más grueso */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+}
+
+.inicio {
+    color: blue;  /* Cambia el color del texto a azul */
+    font-weight: bold; /* Hace el texto más grueso */
+    font-size: 20px; /* Ajusta el tamaño de la fuente */
+}
+
+.formulario {
+    color: rgb(87, 47, 161);  /* Cambia el color del texto a rojo */
+    font-weight: bold;
+    font-size: 20px; /* Ajusta el tamaño de la fuente */
+}
+
+.galeria{
+color:rgb(21, 91, 54);
+font-weight: bold;  
+font-size: 20px; /* Ajusta el tamaño de la fuente */
+}
+
+.registro{
+
+color: brown;
+font-weight: bold;
+font-size: 20px; /* Ajusta el tamaño de la fuente */
+
+}
+header {
+background: #667e80;
+width: 100%;
+clear: both;
+content: '';
+display: table;
+
+}
+
+.menu {
+
+width: 900px;
+margin:0;
+
+
+} 
+
+.img1 {
+    width: 100px;/* Ancho */
+    height: 80px;/* Alto */
+    float: left;  /* Mueve la imagen a la izquierda */
+    padding: 4px; /* Relleno */
+}
+
+.img2 {
+    width: 100px;/* Ancho */
+    height: 80px;/* Alto */
+    position: absolute; /* Mueve la imagen a la derecha */
+    right: 0; 
+    padding: 4px;/* Relleno */
+}
+
+.img3 {
+    width: 200px;
+    height: 180px;
+    display: block;  /* Hace que la imagen sea un bloque */
+    margin: 0 auto;  /* Centra horizontalmente */
+    padding: 4px;
+}
+.img4 {
+    width: 500px;
+    height: 500px;
+    display: block;  /* Hace que la imagen sea un bloque */
+    margin: 0 auto;  /* Centra horizontalmente */
+    padding: 5px;
+}
+
+h3 {
+    font-weight: normal; /* Elimina la negrilla */
+}
+nav{ 
+
+float: right;
+}
+
+/*Estilos a mis listas de enlace*/
+
+nav ul li {
+list-style: none;
+margin-left: 75px;
+padding:15px 0;
+float: left;
+
+}
+
+nav ul li a {
+
+text-decoration: none;
+color: #444;
+font-weight: bold;
+
+}
+
+
+.footer {
+    background-color: #222; /* Color de fondo */
+    color: rgb(229, 232, 224); /* Color del texto */
+    text-align: center; /* Centrar texto */
+    padding: 10px; /* Espaciado interno */
+    position: relative; /* Fijar el footer en la parte inferior */
+    bottom: 0; /* Pegado al borde inferior */
+    width: 100%; /* Que ocupe toda la pantalla */
+}
+
+.footer a {
+    color: #afed63; /* Color del enlace */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Hacerlo más visible */
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 2px 2px;
+    background-color: #1a1a18; /* Color amarillo */
+    color: #9ee170; /* Texto oscuro */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.boton:hover {
+    background-color: #b054cf; /* Color cuando pasas el mouse */
+}
+
+/*Agregar imagen en gif*/
+
+.img5{
+
+    width: 300px;/* ancho */
+    height: 300px; /* Altura */
+    display: block;  /* Hace que la imagen sea un bloque */
+    margin: 0 auto;  /* Centra horizontalmente */
+    padding: 5px;
+}
+
+.identificador    {
+    width: 52%;
+    margin: 50px auto;
+    border: solid 1px #000;
+    font: 1em arial, helvetica, sans-serif;
+    color: white;
+    }
